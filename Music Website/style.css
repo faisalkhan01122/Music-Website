@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #270082;
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .05);
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li {
+  border-bottom: 2px solid transparent;
+  transition: 0.4s ease-in-out;
+}
+
+nav ul li:hover {
+  border-bottom: 2px solid aqua;
+
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: aqua;
+}
+
+nav .logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.hero-section {
+  background-image: url(Images/hero_image.png);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.hero-section h1 {
+  text-align: center;
+  font-size: 46px;
+  color: aqua;
+}
+
+.hero-section h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.music-section .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  color: white;
+}
+
+.music-section {
+  background-color: #281154;
+  padding-top: 50px;
+}
+
+button {
+  width: fit-content;
+  align-self: center;
+  padding: 10px 15px;
+  border: none;
+  transition: 0.2s ease-in-out;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  transition: 0.2s ease-in-out;
+  opacity: 0.8;
+  font-size: 16px;
+  background: aqua;
+}
+
+.ipad-iphone-img {
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+
+.about-music {
+  padding-top: 500px;
+  display: grid;
+  place-items: center;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.secondary-btn {
+  background-color: black;
+  color: white;
+  transition: .4s ease-in-out;
+}
+
+.secondary-btn:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .05);
+  background-color: lightslategray;
+  color: white;
+}
+
+.video-section {
+  background-image: url(Images/video.png);
+  min-height: 800px;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-align: center;
+}
+
+.video-section .container {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -200px;
+}
+
+.hero-section,
+.video-section {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gift-section {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+
+.gift-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-upper {
+  background-color: #1B0058;
+  padding: 20px;
+}
+
+.footer-upper .container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer-upper h4 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+
+.gift-section {
+  scroll-margin: 120px;
+}
